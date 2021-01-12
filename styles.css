@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: rgba(101, 254, 252, 0.5);
+  cursor: pointer;
+}
+
+a:focus {
+  background-color: rgba(101, 254, 252, 0.5);
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+.folder > i {
+  color: orange;
+}
+
+.file > i {
+  color: gray;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.context-menu {
+  display: none;
+  position: absolute;
+  box-shadow: 2px 2px 5px gray;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: white;
+  z-index: 999;
+}
+
+.context-menu__items {
+  padding: 0 16px;
+}
+
+.context-menu__link {
+  text-decoration: none;
+  color: black;
+}
+
+.context-menu--active {
+  display: block;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.input-focus {
+  background-color: rgba(101, 254, 252, 0.5);
+}
